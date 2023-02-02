@@ -1,0 +1,55 @@
+h1{font-family: 'Trebuchet MS'; font-size: 55px; color: rgb(106, 19, 19); height: 40px;}
+
+h2{font-family: 'Segoe UI'; font-size: 24px; color: rgba(0, 0, 0, 0.848);}
+    
+.navbar {
+    width: 100%;
+    background-color: rgb(118, 36, 57);
+    overflow: auto;
+    }
+    
+.navbar a {
+    float: left;
+    padding: 18px 79px;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    }
+    
+.navbar a:hover {
+    background-color: rgb(185, 85, 110);
+    }
+    
+.active {
+    background-color: rgb(185, 85, 110);
+    }
+    
+@media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+    display: block;
+    }
+}
+
+h{font-size: 25px;color: rgb(72, 24, 24);}
+body{background-color: rgb(231, 191, 195);}
+
+p1{font-size: 20px;color: rgb(60, 15, 15);position: relative;top: 40px;}
+p1{font-size: 20px;color: rgb(24, 7, 7);position: relative;top: 30px; font-family: 'Segoe UI';}
+
+table,tr,td,th
+    {
+        border-collapse: collapse;
+        border: 20px double rgb(210, 82, 109);
+    }
+
+ul 
+    {
+        color: black;
+        text-align: center;
+        list-style-position: inside;
+        list-style-type: square; 
+        font-size: 21.5px;
+        font-family: 'Trebuchet MS';
+    }
